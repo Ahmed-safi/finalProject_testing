@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "458416584064",
+    "project_id": "ecompany-ahmed",
+    "storage_bucket": "ecompany-ahmed.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:458416584064:android:db77af6ea8f67082bebd65",
+        "android_client_info": {
+          "package_name": "com.example.ecompany_ahmed"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "458416584064-uq6jmj064incl34rc9jb8hh6u1v7us47.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBdaHlCfjpZsAJRWw3iMmuasN55KI-JGY4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "458416584064-uq6jmj064incl34rc9jb8hh6u1v7us47.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
