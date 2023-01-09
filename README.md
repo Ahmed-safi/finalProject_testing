@@ -1,6 +1,6 @@
-# finalProject_testing
-##Test Cases
+# Final Project testing
+## Test Cases
 
-###1. Unit Test
+### 1. Unit Test
 
-###2. Automation UI Test
+### 2. Automation UI Test
