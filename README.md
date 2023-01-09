@@ -17,11 +17,11 @@
    + Thomas Jefferson
  - [x] Add Task
    - Select Category
-         - Field can\'t be missing
-         * Category is Valid
+        - Field can\'t be missing
+        * Category is Valid
    * Enter Title
-         - Field can\'t be missing
-         * Title is Valid
+        - Field can\'t be missing
+        * Title is Valid
  - [x] Add Comment
    - Field can't be missing
    * Comment cant be less than 7 characteres
