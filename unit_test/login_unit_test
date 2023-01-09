@@ -1,0 +1,27 @@
+import 'package:flutter_test/flutter_test.dart';
+import 'package:ECompany/Screens/Login/components/login_form.dart';
+
+void main() {
+  //-- Email cases
+  test('enter Email test', () {
+    String result = validator._emailTextController('');
+    expect(result, 'Please enter a valid Email');
+  });
+  test('valid Email test', () {
+    String result = validator._emailTextController('ahmed20@test.coma');
+    expect(result, 'Email is valid ');
+  });
+  //-- Password cases
+  test('enter Password test', () {
+    String result = validator._passTextController('');
+    expect(result, ''Field can\'t be missing' ');
+  });
+  test('enter Password test', () {
+    String result = validator._passTextController('alkj1');
+    expect(result, 'Please enter a valid password ');
+  });
+  test('valid Password test', () {
+    String result = validator._passTextController('a123123a');
+    expect(result, 'password is valid');
+  });
+}

@@ -1,0 +1,59 @@
+import 'package:flutter_test/flutter_test.dart';
+import 'package:ECompany/Screens/Signup_form/components/signup_form.dart';
+
+void main() {
+  //-- FullName cases
+  test('enter FullName test', () {
+    String result = validator._fullnameController('');
+    expect(result, 'Field can\'t be missing');
+  });
+  test('valid FullName test', () {
+    String result = validator._fullnameController('Ahmed Safi');
+    expect(result, 'FullName is valid ');
+  });
+  //-- Email cases
+  test('enter Email test', () {
+    String result = validator. _emailController('');
+    expect(result, 'Please enter a valid Email');
+  });
+  test('valid Email test', () {
+    String result = validator. _emailController('ahmed20@test.coma');
+    expect(result, 'Email is valid ');
+  });
+  //-- Password cases
+  test('enter Password test', () {
+    String result = validator._passController('');
+    expect(result, 'Field can\'t be missing);
+  });
+  test('enter Password test', () {
+    String result = validator._passController('alkj1');
+    expect(result, 'Please enter a valid password ');
+  });
+  test('valid Password test', () {
+    String result = validator._passController('a123123a');
+    expect(result, 'password is valid');
+  });
+  //-- Phone Number cases
+  test('enter Phone Number test', () {
+    String result = validator._phoneController('');
+    expect(result, 'Please enter Phone Number');
+  });
+  test('enter Phone Number test', () {
+    String result = validator._phoneController('05585kj5');
+    expect(result, 'Please enter Number');
+  });
+  test('valid Phone Number test', () {
+    String result = validator._phoneController('05495245');
+    expect(result, 'Phone Number is valid');
+  });
+  //-- Company Position cases
+  test('Select Company Position test', () {
+    String result = validator._positionCPController('');
+    expect(result, 'Field can\'t be missing');
+  });
+  test('Valid Company Position test', () {
+    String result = validator._positionCPController('Programming');
+    expect(result, 'Company Position is Valid');
+  });
+
+}
