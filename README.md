@@ -2,5 +2,7 @@
 ## Test Cases
 
 ### 1. Unit Test
+#### Functionality:
 
 ### 2. Automation UI Test
+#### Functionality:
